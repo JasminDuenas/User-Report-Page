@@ -1,0 +1,224 @@
+.form-container {
+  position: absolute;
+  top: 15vh;
+  background: #144a4c;
+  padding: 30px;
+  width: 50rem;
+  right: -11.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #000000;
+}
+
+.container-fluid {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #144a4c;
+}
+
+.header-logo {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* NAVBAR */
+#navigbar {
+  background-color: #144a4c;
+}
+
+.brand-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding-left: 1rem;
+}
+
+.links {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.vector {
+  margin: 10px;
+}
+
+/*CONTAINER*/
+.header-top {
+  margin: -30px;
+  text-align: center;
+}
+
+.solid {
+  border-top: 2px solid #bbb;
+  bottom: 2.5rem;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+.form-control {
+  font-size: 15px;
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width: 1440px) {
+  .brand-title {
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding-right: 1.5rem;
+  }
+  .form-container {
+    right: -17.5rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-logo {
+    text-align: center;
+    padding-bottom: 0.3rem;
+    font-size: 1.1rem;
+  }
+
+  .brand-title {
+    font-size: 1.6rem;
+  }
+
+  .links {
+    font-size: 1rem;
+  }
+
+  .form-container {
+    width: 40rem;
+    right: -15rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .form-container {
+    width: 40rem;
+    right: -16.5rem;
+  }
+
+  .links {
+    font-size: 1rem;
+  }
+  .header-logo{
+    font-size: 1.1rem;
+  }
+
+  @media only screen and (max-width: 425px) {
+    .form-container {
+      width: 40rem;
+      left: 4.5rem;
+    }
+
+    .links {
+      font-size: -1.5rem;
+    }
+    .brand-title{
+      font-size: 1.3rem;
+    }
+    .header-logo{
+      font-size: 1.1rem;
+    }
+
+    @media only screen and (max-width: 430px) {
+      .brand-title {
+        font-size: 1.3rem;
+      }
+
+      .form-container {
+        width: max-content;
+        right: 5rem;
+      }
+
+      .loginform {
+        right: 3.5rem;
+      }
+    }
+
+
+    @media only screen and (max-width: 425px) {
+      .brand-title {
+        font-size: 1.2rem;
+      }
+
+      .form-container {
+        width: 20.5rem;
+        right: 3rem;
+      }
+      .form-control{
+        font-size: 0.75rem;
+      }
+    }
+
+    @media only screen and (max-width: 375px) {
+      .brand-title {
+        font-size: 1.2rem;
+      }
+
+      .details {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+
+      .form-container {
+        width: 17rem;
+        right: 3rem;
+      }
+      .form-control{
+        font-size: 0.65rem;
+      }
+    }
+
+    @media only screen and (max-width: 380px) {
+      .brand-title {
+        font-size: 1.2rem;
+      }
+
+      .form-container {
+        width: 17rem;
+        left: 4.5rem;
+      }
+    }
+
+    @media only screen and (max-width: 320px) {
+      .brand-title {
+        font-size: 1rem;
+      }
+
+      .header-logo{
+        font-size: 1.1rem;
+      }
+
+      .form-container {
+        width: 15rem;
+        left: 3.5rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+        text-align: center;
+      }
+
+      .mobnum {
+        font-size: 0.9rem;
+      }
+      .form-control{
+        font-size: 0.50rem;
+      }
+    }
